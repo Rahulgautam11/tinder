@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(51, 51, 129);
+    font-family:'Inter', sans-serif; 
+    
+}
+
+.navbar{
+    background-color: rgb(255, 254, 254);
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-wrap: nowrap;
+    border-bottom: 0.01em solid  rgb(243, 227, 227);
+    
+}
+.birdimg{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.link{
+    display: flex;
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+
+
+}
+.log{
+    display: flex;
+    padding: 0.2rem;
+    font-size: 0.5rem;
+    border-radius: 20px;
+    border: 1Q solid red;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgb(236, 228, 229) ;
+    
+}
+
+.log:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+
+.a5{
+    text-decoration: none;
+    color:rgb(51, 51, 129);
+    font-size: 0.4rem ;
+    
+}
+.a1, .a2, .a3, .a4{
+    display: flex;
+    flex: 1;
+}
+.image1{
+width: 100%;
+height: 80vh;
+background-image: url("./withcoffe1.jpg ");
+}
+.image1{
+    text-align: center;
+    
+}
+.para_love{
+font-size: 2rem;
+}
+.para_love1{
+    font-size: 0.8rem;
+}
+.love_button{
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: 0.5Q solid red;
+    font-size: 0.5rem;
+    color:rgb(51, 51, 129) ;
+    background-color: rgb(236, 228, 229);
+
+}
+.love_button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.image2{
+    background-image: url("./withcoffe1.jpg");
+    width: 100%;
+    height: 80vh;
+}
+.leftpara{
+    float: right;
+    margin-right: 5rem;
+}
+.morepara{
+    font-size: 1.3rem;
+}
+.morepara1{
+    font-size: 0.6rem;
+}
+.heart_logo{
+    width: 15px;
+    height: 15px;
+    border-radius: 50% ;
+    border: 1Q solid rgb(230, 98, 98);
+    padding: 6px;
+    margin: 5px;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+    float: right;
+}
+.mob-main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+}
+.chat{
+    text-align: center;
+    font-size: 1rem;
+}
+.dating_main{
+    display: flex;
+    flex-direction: row;
+    height: 78vh;
+    padding: 10px;
+
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;   
+    justify-content: center;
+    align-items: center;
+}
+.inpara{
+    font-size: 0.6rem;
+    color: rgb(167, 166, 166);
+}
+.a6{
+    color: rgb(8, 8, 186);
+    font-size: 0.7rem;
+}
+.chat-boxbar{
+    margin-top: 30px;
+}
+.headpara{
+    font-size: 0.6rem;
+}
+
+
+.middle-main{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+       
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+.more-main{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.left-more{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.right-more{
+    display: flex;
+   flex-direction: column;
+        flex: 2;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+}
+.more-text{
+    font-size: 1.5rem;
+}
+.more-text1{
+    font-size: 0.7rem;
+    color: rgb(157, 152, 152);
+}
+.just-main{
+    width: 50%;
+    height: 30%;
+    align-items: center;
+}
+.profile{
+    border-radius: 50%;
+}
+.profile1{
+    display: flex;
+    flex: 1;
+}
+.profile2{
+    display: flex;
+    flex: 1;
+}
+.upper{
+    display: flex;
+    gap: 30px;
+}
+.search_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(244, 222, 229);
+    gap: 20px;
+}
+.news-text{
+    font-size: 1.6rem;
+}
+.input-bar{
+    background-color: white;
+    text-align: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+.input_field{
+    padding: 15px;
+    width: 50vw;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+    font-size: 0.6rem;
+}
+.button_field{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.foot-main{
+    background-color: rgb(0, 0, 8);
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+
+
+}
+ul{
+    display: flex;
+    font-size: 0.4rem;
+    list-style: none;
+    flex: 1
+
+}
+ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+li{
+    display: flex;
+    flex: 1;
+} 
+.fa {
+    padding: 6px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    background: white;
+    color:rgb(10, 10, 162);
+    border-radius: 50%;
+}
+.fa-google {
+    background:white;
+    color: rgb(221, 157, 38);
+    border-radius: 50%;
+}
+.fa-twitter {
+    background: white;
+    color:#55ACEE;
+    border-radius: 50%;
+}
+.fa-youtube {
+    background: white;
+    color: #bb0000;
+    border-radius: 50%;
+}
